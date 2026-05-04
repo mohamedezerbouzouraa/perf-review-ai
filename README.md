@@ -27,3 +27,14 @@ you simply input bullet points and let the agent handle the rest.
 ---
 
 ## 📁 Project Structure
+reviewify/
+├── tools/
+│   ├── performance_review.py
+│   ├── tone_analyzer.py
+│   ├── rating_suggester.py
+│   ├── improvement_plan_generator.py
+│   └── career_advice_generator.py
+├── core/
+│   └── agent.py
+├── main.py
+└── requirements.txt
