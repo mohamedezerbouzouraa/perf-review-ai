@@ -3,7 +3,6 @@ from core.agent import build_agent
 
 llm = FakeListLLM(responses=["Njarbou ntastiweh"])
 agent = build_agent(llm)
-
 if __name__ == "__main__":
     bullets = (
         "- led 3 successful product launches\n"
