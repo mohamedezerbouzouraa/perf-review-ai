@@ -14,8 +14,7 @@ def build_agent(llm):
                 "Generates a professional HR performance review from raw bullet points. "
                 "Input format: 'name|level|bullet1, bullet2, bullet3' "
                 "Example: 'Sarah|senior|led 3 launches, missed 2 deadlines'"
-            )
-        ),
+            )),
         Tool(
             name="ToneAnalyzer",
             func=tone_analyzer,
