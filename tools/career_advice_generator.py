@@ -18,8 +18,7 @@ def career_advice_generator(employee_info: str) -> str:
             f"1. How to leverage their strengths to reach {target_role}\n"
             f"2. Specific skills or certifications to pursue\n"
             f"3. A realistic timeline to achieve the target role\n"
-            f"4. One motivational insight tailored to their profile"
-        )
+            f"4. One motivational insight tailored to their profile")
         response = llm.invoke(prompt)
         return response.content
     except Exception as e:
