@@ -9,8 +9,7 @@ def improvement_plan_generator(weak_areas: str, employee_name: str = "The employ
             f"- Month 1: Awareness & Foundation (what to learn and acknowledge)\n"
             f"- Month 2: Practice & Application (concrete actions to take)\n"
             f"- Month 3: Measurement & Validation (how success will be measured)\n\n"
-            f"For each month provide 2-3 specific, measurable, and realistic milestones."
-        )
+            f"For each month provide 2-3 specific, measurable, and realistic milestones." )
         response = llm.invoke(prompt)
         return response.content
     except Exception as e:
